@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://cor.esipfed.org/ont/earthcube/UBA#"
+     xml:base="http://cor.esipfed.org/ont/earthcube/UBA"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://cor.esipfed.org/ont/earthcube/UBA">
+        <dc:description xml:lang="en">The Data Model Language Controlled Vocabulary was created for NSF&apos;s EarthCube Program&apos;s Resource Registry.  At this point it merely lists a few of the languages used by data model resources in the registry.</dc:description>
+        <dc:title xml:lang="en">Data Model Language Controlled Vocabulary</dc:title>
+        <terms:bibliographicCitation xml:lang="en">Duerr, R., 2019, &quot;Data Model Language Controlled Vocabulary&quot;, ESIP Community Ontology Repository, Version 1.0.0, available at: http://cor.esipfed.org/ont/earthcube/MOLA</terms:bibliographicCitation>
+        <terms:license rdf:resource="https://creativecommons.org/share-your-work/public-domain/cc0/"/>
+        <terms:license xml:lang="en">Ruth Duerr</terms:license>
+        <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <rdfs:label>definition source</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/bibliographicCitation -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/bibliographicCitation"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasURI -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasURI"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/MOLA_0000001 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/MOLA_0000001">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/MOLA_0000005"/>
+        <obo:IAO_0000115 xml:lang="en">A family of knowledge representation languages for authoring ontologies.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-22T21:45:13Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref rdf:resource="https://www.wikidata.org/wiki/Q826165"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">Web Ontology Language</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">OWL</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://cor.esipfed.org/ont/earthcube/MOLA_0000001"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A family of knowledge representation languages for authoring ontologies.</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Web_Ontology_Language"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/MOLA_0000002 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/MOLA_0000002">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/MOLA_0000005"/>
+        <obo:IAO_0000115 xml:lang="en">A W3C recommendation designed for representation of thesauri, classification schemes, taxonomies, subject-heading systems, or any other type of structured controlled vocabulary.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-22T21:48:06Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref rdf:resource="https://www.wikidata.org/wiki/Q2288360"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">Simple Knowledge Organization System</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">SKOS</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://cor.esipfed.org/ont/earthcube/MOLA_0000002"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A W3C recommendation designed for representation of thesauri, classification schemes, taxonomies, subject-heading systems, or any other type of structured controlled vocabulary.</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Simple_Knowledge_Organization_System"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/MOLA_0000003 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/MOLA_0000003">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/MOLA_0000005"/>
+        <obo:IAO_0000115 xml:lang="en">A general-purpose, developmental, modeling language in the field of software engineering that is intended to provide a standard way to visualize the design of a system.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-22T21:50:11Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref rdf:resource="https://www.wikidata.org/wiki/Q169411"/>
+        <rdfs:label xml:lang="en">UML</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://cor.esipfed.org/ont/earthcube/MOLA_0000003"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A general-purpose, developmental, modeling language in the field of software engineering that is intended to provide a standard way to visualize the design of a system.</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Unified_Modeling_Language"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/MOLA_0000004 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/MOLA_0000004">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/MOLA_0000005"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-22T21:52:02Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Other</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/MOLA_0000005 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/MOLA_0000005">
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-22T21:52:20Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Data Model Language</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+

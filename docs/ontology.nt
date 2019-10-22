@@ -1,0 +1,124 @@
+<http://cor.esipfed.org/ont/earthcube/UBA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://cor.esipfed.org/ont/earthcube/UBA> <http://purl.org/dc/elements/1.1/description> "The Data Model Language Controlled Vocabulary was created for NSF's EarthCube Program's Resource Registry.  At this point it merely lists a few of the languages used by data model resources in the registry."@en .
+<http://cor.esipfed.org/ont/earthcube/UBA> <http://purl.org/dc/elements/1.1/title> "Data Model Language Controlled Vocabulary"@en .
+<http://cor.esipfed.org/ont/earthcube/UBA> <http://purl.org/dc/terms/bibliographicCitation> "Duerr, R., 2019, \"Data Model Language Controlled Vocabulary\", ESIP Community Ontology Repository, Version 1.0.0, available at: http://cor.esipfed.org/ont/earthcube/MOLA"@en .
+<http://cor.esipfed.org/ont/earthcube/UBA> <http://purl.org/dc/terms/license> <https://creativecommons.org/share-your-work/public-domain/cc0/> .
+<http://cor.esipfed.org/ont/earthcube/UBA> <http://purl.org/dc/terms/license> "Ruth Duerr"@en .
+<http://cor.esipfed.org/ont/earthcube/UBA> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.obolibrary.org/obo/IAO_0000115
+<http://purl.obolibrary.org/obo/IAO_0000115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.obolibrary.org/obo/IAO_0000115> <http://www.w3.org/2000/01/rdf-schema#label> "definition" .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000119
+<http://purl.obolibrary.org/obo/IAO_0000119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.obolibrary.org/obo/IAO_0000119> <http://www.w3.org/2000/01/rdf-schema#label> "definition source" .
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/bibliographicCitation
+<http://purl.org/dc/terms/bibliographicCitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#created_by
+<http://www.geneontology.org/formats/oboInOwl#created_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#creation_date
+<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#hasDbXref
+<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym
+<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#hasURI
+<http://www.geneontology.org/formats/oboInOwl#hasURI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://cor.esipfed.org/ont/earthcube/MOLA_0000001
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000001> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/MOLA_0000005> .
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000001> <http://purl.obolibrary.org/obo/IAO_0000115> "A family of knowledge representation languages for authoring ontologies."@en .
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000001> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000001> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T21:45:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000001> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://www.wikidata.org/wiki/Q826165> .
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000001> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "Web Ontology Language"@en .
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000001> <http://www.w3.org/2000/01/rdf-schema#label> "OWL"@en .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid1 <http://www.w3.org/2002/07/owl#annotatedSource> <http://cor.esipfed.org/ont/earthcube/MOLA_0000001> .
+_:genid1 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/IAO_0000115> .
+_:genid1 <http://www.w3.org/2002/07/owl#annotatedTarget> "A family of knowledge representation languages for authoring ontologies."@en .
+_:genid1 <http://purl.obolibrary.org/obo/IAO_0000119> <https://en.wikipedia.org/wiki/Web_Ontology_Language> .
+# 
+# http://cor.esipfed.org/ont/earthcube/MOLA_0000002
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000002> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/MOLA_0000005> .
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000002> <http://purl.obolibrary.org/obo/IAO_0000115> "A W3C recommendation designed for representation of thesauri, classification schemes, taxonomies, subject-heading systems, or any other type of structured controlled vocabulary."@en .
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000002> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000002> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T21:48:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000002> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://www.wikidata.org/wiki/Q2288360> .
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000002> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "Simple Knowledge Organization System"@en .
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000002> <http://www.w3.org/2000/01/rdf-schema#label> "SKOS"@en .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid2 <http://www.w3.org/2002/07/owl#annotatedSource> <http://cor.esipfed.org/ont/earthcube/MOLA_0000002> .
+_:genid2 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/IAO_0000115> .
+_:genid2 <http://www.w3.org/2002/07/owl#annotatedTarget> "A W3C recommendation designed for representation of thesauri, classification schemes, taxonomies, subject-heading systems, or any other type of structured controlled vocabulary."@en .
+_:genid2 <http://purl.obolibrary.org/obo/IAO_0000119> <https://en.wikipedia.org/wiki/Simple_Knowledge_Organization_System> .
+# 
+# http://cor.esipfed.org/ont/earthcube/MOLA_0000003
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000003> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/MOLA_0000005> .
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000003> <http://purl.obolibrary.org/obo/IAO_0000115> "A general-purpose, developmental, modeling language in the field of software engineering that is intended to provide a standard way to visualize the design of a system."@en .
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000003> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000003> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T21:50:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000003> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://www.wikidata.org/wiki/Q169411> .
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000003> <http://www.w3.org/2000/01/rdf-schema#label> "UML"@en .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid3 <http://www.w3.org/2002/07/owl#annotatedSource> <http://cor.esipfed.org/ont/earthcube/MOLA_0000003> .
+_:genid3 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/IAO_0000115> .
+_:genid3 <http://www.w3.org/2002/07/owl#annotatedTarget> "A general-purpose, developmental, modeling language in the field of software engineering that is intended to provide a standard way to visualize the design of a system."@en .
+_:genid3 <http://purl.obolibrary.org/obo/IAO_0000119> <https://en.wikipedia.org/wiki/Unified_Modeling_Language> .
+# 
+# http://cor.esipfed.org/ont/earthcube/MOLA_0000004
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000004> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/MOLA_0000005> .
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000004> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000004> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T21:52:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000004> <http://www.w3.org/2000/01/rdf-schema#label> "Other"@en .
+# 
+# http://cor.esipfed.org/ont/earthcube/MOLA_0000005
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000005> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000005> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T21:52:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000005> <http://www.w3.org/2000/01/rdf-schema#label> "Data Model Language"@en .
+# 
+# Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/

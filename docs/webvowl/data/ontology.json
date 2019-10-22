@@ -1,0 +1,289 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://cor.esipfed.org/ont/earthcube", "http://www.w3.org/2001/XMLSchema" ],
+    "title" : {
+      "en" : "Data Model Language Controlled Vocabulary"
+    },
+    "iri" : "http://cor.esipfed.org/ont/earthcube/UBA",
+    "version" : "1.0.0",
+    "description" : {
+      "en" : "The Data Model Language Controlled Vocabulary was created for NSF's EarthCube Program's Resource Registry.  At this point it merely lists a few of the languages used by data model resources in the registry."
+    },
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://creativecommons.org/share-your-work/public-domain/cc0/",
+        "type" : "iri"
+      }, {
+        "identifier" : "license",
+        "language" : "en",
+        "value" : "Ruth Duerr",
+        "type" : "label"
+      } ],
+      "bibliographicCitation" : [ {
+        "identifier" : "bibliographicCitation",
+        "language" : "en",
+        "value" : "Duerr, R., 2019, \"Data Model Language Controlled Vocabulary\", ESIP Community Ontology Repository, Version 1.0.0, available at: http://cor.esipfed.org/ont/earthcube/MOLA",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "en",
+        "value" : "1.0.0",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "Data Model Language Controlled Vocabulary",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/MOLA_0000004",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-22T21:52:02Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MOLA_0000004",
+      "en" : "Other"
+    },
+    "attributes" : [ "external" ],
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/MOLA_0000003",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "annotations" : {
+      "hasDbXref" : [ {
+        "identifier" : "hasDbXref",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/wiki/Q169411",
+        "type" : "iri"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A general-purpose, developmental, modeling language in the field of software engineering that is intended to provide a standard way to visualize the design of a system.",
+        "type" : "label"
+      } ],
+      "IAO_0000119" : [ {
+        "identifier" : "IAO_0000119",
+        "language" : "undefined",
+        "value" : "https://en.wikipedia.org/wiki/Unified_Modeling_Language",
+        "type" : "iri"
+      } ],
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-22T21:50:11Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MOLA_0000003",
+      "en" : "UML"
+    },
+    "attributes" : [ "external" ],
+    "id" : "2",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/MOLA_0000005",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-22T21:52:20Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MOLA_0000005",
+      "en" : "Data Model Language"
+    },
+    "subClasses" : [ "0", "2", "3", "4" ],
+    "attributes" : [ "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/MOLA_0000002",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "annotations" : {
+      "hasDbXref" : [ {
+        "identifier" : "hasDbXref",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/wiki/Q2288360",
+        "type" : "iri"
+      } ],
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "en",
+        "value" : "Simple Knowledge Organization System",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A W3C recommendation designed for representation of thesauri, classification schemes, taxonomies, subject-heading systems, or any other type of structured controlled vocabulary.",
+        "type" : "label"
+      } ],
+      "IAO_0000119" : [ {
+        "identifier" : "IAO_0000119",
+        "language" : "undefined",
+        "value" : "https://en.wikipedia.org/wiki/Simple_Knowledge_Organization_System",
+        "type" : "iri"
+      } ],
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-22T21:48:06Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MOLA_0000002",
+      "en" : "SKOS"
+    },
+    "attributes" : [ "external" ],
+    "id" : "3",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/MOLA_0000001",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "annotations" : {
+      "hasDbXref" : [ {
+        "identifier" : "hasDbXref",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/wiki/Q826165",
+        "type" : "iri"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A family of knowledge representation languages for authoring ontologies.",
+        "type" : "label"
+      } ],
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "en",
+        "value" : "Web Ontology Language",
+        "type" : "label"
+      } ],
+      "IAO_0000119" : [ {
+        "identifier" : "IAO_0000119",
+        "language" : "undefined",
+        "value" : "https://en.wikipedia.org/wiki/Web_Ontology_Language",
+        "type" : "iri"
+      } ],
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-22T21:45:13Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MOLA_0000001",
+      "en" : "OWL"
+    },
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "1" ]
+  } ],
+  "property" : [ {
+    "id" : "5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "7",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "8",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "1",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "5"
+  }, {
+    "range" : "1",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "6"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "7"
+  }, {
+    "range" : "1",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "8"
+  } ]
+}

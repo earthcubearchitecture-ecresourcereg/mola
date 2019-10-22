@@ -1,0 +1,147 @@
+@prefix : <http://cor.esipfed.org/ont/earthcube/UBA#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://cor.esipfed.org/ont/earthcube/UBA> .
+
+<http://cor.esipfed.org/ont/earthcube/UBA> rdf:type owl:Ontology ;
+                                            <http://purl.org/dc/elements/1.1/description> "The Data Model Language Controlled Vocabulary was created for NSF's EarthCube Program's Resource Registry.  At this point it merely lists a few of the languages used by data model resources in the registry."@en ;
+                                            <http://purl.org/dc/elements/1.1/title> "Data Model Language Controlled Vocabulary"@en ;
+                                            <http://purl.org/dc/terms/bibliographicCitation> "Duerr, R., 2019, \"Data Model Language Controlled Vocabulary\", ESIP Community Ontology Repository, Version 1.0.0, available at: http://cor.esipfed.org/ont/earthcube/MOLA"@en ;
+                                            <http://purl.org/dc/terms/license> <https://creativecommons.org/share-your-work/public-domain/cc0/> ,
+                                                                               "Ruth Duerr"@en ;
+                                            owl:versionInfo "1.0.0"@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.obolibrary.org/obo/IAO_0000115
+<http://purl.obolibrary.org/obo/IAO_0000115> rdf:type owl:AnnotationProperty ;
+                                             rdfs:label "definition" .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000119
+<http://purl.obolibrary.org/obo/IAO_0000119> rdf:type owl:AnnotationProperty ;
+                                             rdfs:label "definition source" .
+
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/bibliographicCitation
+<http://purl.org/dc/terms/bibliographicCitation> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#created_by
+<http://www.geneontology.org/formats/oboInOwl#created_by> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#creation_date
+<http://www.geneontology.org/formats/oboInOwl#creation_date> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasDbXref
+<http://www.geneontology.org/formats/oboInOwl#hasDbXref> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym
+<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasURI
+<http://www.geneontology.org/formats/oboInOwl#hasURI> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://cor.esipfed.org/ont/earthcube/MOLA_0000001
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000001> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/MOLA_0000005> ;
+                                                    <http://purl.obolibrary.org/obo/IAO_0000115> "A family of knowledge representation languages for authoring ontologies."@en ;
+                                                    <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                    <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T21:45:13Z"^^xsd:dateTime ;
+                                                    <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://www.wikidata.org/wiki/Q826165> ;
+                                                    <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "Web Ontology Language"@en ;
+                                                    rdfs:label "OWL"@en .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://cor.esipfed.org/ont/earthcube/MOLA_0000001> ;
+   owl:annotatedProperty <http://purl.obolibrary.org/obo/IAO_0000115> ;
+   owl:annotatedTarget "A family of knowledge representation languages for authoring ontologies."@en ;
+   <http://purl.obolibrary.org/obo/IAO_0000119> <https://en.wikipedia.org/wiki/Web_Ontology_Language>
+ ] .
+
+
+###  http://cor.esipfed.org/ont/earthcube/MOLA_0000002
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000002> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/MOLA_0000005> ;
+                                                    <http://purl.obolibrary.org/obo/IAO_0000115> "A W3C recommendation designed for representation of thesauri, classification schemes, taxonomies, subject-heading systems, or any other type of structured controlled vocabulary."@en ;
+                                                    <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                    <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T21:48:06Z"^^xsd:dateTime ;
+                                                    <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://www.wikidata.org/wiki/Q2288360> ;
+                                                    <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "Simple Knowledge Organization System"@en ;
+                                                    rdfs:label "SKOS"@en .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://cor.esipfed.org/ont/earthcube/MOLA_0000002> ;
+   owl:annotatedProperty <http://purl.obolibrary.org/obo/IAO_0000115> ;
+   owl:annotatedTarget "A W3C recommendation designed for representation of thesauri, classification schemes, taxonomies, subject-heading systems, or any other type of structured controlled vocabulary."@en ;
+   <http://purl.obolibrary.org/obo/IAO_0000119> <https://en.wikipedia.org/wiki/Simple_Knowledge_Organization_System>
+ ] .
+
+
+###  http://cor.esipfed.org/ont/earthcube/MOLA_0000003
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000003> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/MOLA_0000005> ;
+                                                    <http://purl.obolibrary.org/obo/IAO_0000115> "A general-purpose, developmental, modeling language in the field of software engineering that is intended to provide a standard way to visualize the design of a system."@en ;
+                                                    <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                    <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T21:50:11Z"^^xsd:dateTime ;
+                                                    <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://www.wikidata.org/wiki/Q169411> ;
+                                                    rdfs:label "UML"@en .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://cor.esipfed.org/ont/earthcube/MOLA_0000003> ;
+   owl:annotatedProperty <http://purl.obolibrary.org/obo/IAO_0000115> ;
+   owl:annotatedTarget "A general-purpose, developmental, modeling language in the field of software engineering that is intended to provide a standard way to visualize the design of a system."@en ;
+   <http://purl.obolibrary.org/obo/IAO_0000119> <https://en.wikipedia.org/wiki/Unified_Modeling_Language>
+ ] .
+
+
+###  http://cor.esipfed.org/ont/earthcube/MOLA_0000004
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000004> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/MOLA_0000005> ;
+                                                    <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                    <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T21:52:02Z"^^xsd:dateTime ;
+                                                    rdfs:label "Other"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/MOLA_0000005
+<http://cor.esipfed.org/ont/earthcube/MOLA_0000005> rdf:type owl:Class ;
+                                                    <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                    <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T21:52:20Z"^^xsd:dateTime ;
+                                                    rdfs:label "Data Model Language"@en .
+
+
+###  Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/
